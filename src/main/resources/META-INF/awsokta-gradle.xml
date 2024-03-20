@@ -1,0 +1,5 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="org.jetbrains.plugins.gradle">
+        <executionEnvironmentProvider implementation="com.ensighten.awsokta.products.idea.GradleAwsOktaProvider" order="first"/>
+    </extensions>
+</idea-plugin>

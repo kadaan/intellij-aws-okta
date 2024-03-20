@@ -1,0 +1,15 @@
+rootProject.name = 'awsokta'
+
+include (
+        'modules/core',
+        'modules/platform',
+        'modules/products/idea',
+        'modules/products/goland',
+        'modules/products/nodejs',
+        'modules/products/pycharm',
+        'modules/products/rubymine',
+)
+
+rootProject.children.each {
+    it.name = (it.name.replaceFirst("modules/", "awsokta/").replace("/", "-"))
+}

@@ -1,0 +1,6 @@
+<idea-plugin version="2">
+    <extensions defaultExtensionNs="Pythonid">
+        <runConfigurationExtension implementation="com.ensighten.awsokta.products.pycharm.PyCharmRunConfigurationExtension" id="awsOktaPyCharm"/>
+        <pythonCommandLineTargetEnvironmentProvider implementation="com.ensighten.awsokta.products.pycharm.AwsOktaProvider"/>
+    </extensions>
+</idea-plugin>

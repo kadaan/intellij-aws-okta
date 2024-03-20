@@ -1,0 +1,5 @@
+<idea-plugin>
+    <extensions defaultExtensionNs="JavaScript">
+        <nodeRunConfigurationExtension implementation="com.ensighten.awsokta.products.nodejs.NodeRunConfigurationExtension" id="awsOktaNode"/>
+    </extensions>
+</idea-plugin>

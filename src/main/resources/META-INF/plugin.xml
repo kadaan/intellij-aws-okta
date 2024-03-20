@@ -1,0 +1,28 @@
+<idea-plugin>
+  <id>com.ensighten.awsokta</id>
+  <name>Aws-Okta</name>
+  <version>1.0.0</version>
+  <vendor email="joel.b@cheq.ai">Joel Baranick</vendor>
+
+  <description><![CDATA[
+      <h1>Aws-Okta</h1>
+      <br/>
+      <b>Aws-Okta</b> is a plugin for JetBrains IDEs that allows you to set the Aws-Okta profile for your run configurations.
+      <br/>
+    ]]></description>
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <notificationGroup displayType="NONE" id="com.ensighten.awsokta"/>
+  </extensions>
+
+  <depends optional="true" config-file="awsokta-idea.xml">com.intellij.modules.java</depends>
+  <depends optional="true" config-file="awsokta-gradle.xml">com.intellij.gradle</depends>
+  <depends optional="true" config-file="awsokta-nodejs.xml">NodeJS</depends>
+  <depends optional="true" config-file="awsokta-javascript.xml">JavaScript</depends>
+  <depends optional="true" config-file="awsokta-pycharm.xml">com.intellij.modules.python</depends>
+  <depends optional="true" config-file="awsokta-rubymine.xml">com.intellij.modules.ruby</depends>
+  <depends optional="true" config-file="awsokta-goland.xml">org.jetbrains.plugins.go</depends>
+
+</idea-plugin>

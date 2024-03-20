@@ -1,0 +1,5 @@
+<idea-plugin version="2">
+    <extensions defaultExtensionNs="org.jetbrains.plugins.ruby">
+        <runConfigurationExtension implementation="com.ensighten.awsokta.products.rubymine.RubyMineRunConfigurationExtension" id="awsOktaRubyMine"/>
+    </extensions>
+</idea-plugin>
